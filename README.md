@@ -6,6 +6,14 @@ Built by [OneMira Engineering](https://onemira.com) for executives, M&A diligenc
 
 ---
 
+
+### Install via Homebrew (macOS & Linux)
+
+```bash
+brew tap onemira-space/tap
+brew install meeting-minutes-md
+```
+
 ## Why `meeting-minutes-md`?
 
 - **Editable First-Draft Markdown (`Zero Cloud`)**: Converts raw speaker turns into deterministic YAML frontmatter + `[[Speaker]]` wiki-links + GFM action-item tables locally with zero external API calls.
