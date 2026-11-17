@@ -1,0 +1,49 @@
+{
+  "name": "meeting-minutes-md",
+  "version": "1.0.0",
+  "description": "Zero-dependency offline CLI & library to format speaker-labeled transcripts and pre-distributed agendas into editable Open Knowledge Format (OKF v0.2) Markdown meeting minutes in 7 languages (EN/DE/FR/IT/ES/PT/KO), plus action-item owner linting.",
+  "type": "module",
+  "main": "./src/index.mjs",
+  "exports": {
+    ".": "./src/index.mjs"
+  },
+  "bin": {
+    "meeting-minutes-md": "./bin/meeting-minutes.mjs",
+    "minutes-md": "./bin/meeting-minutes.mjs"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "meeting-minutes",
+    "gespraechsprotokoll",
+    "compte-rendu",
+    "verbale-riunione",
+    "acta-de-reunion",
+    "okf",
+    "markdown",
+    "obsidian",
+    "transcript",
+    "action-items",
+    "diligence",
+    "claude-skills",
+    "agent-skills",
+    "mcp",
+    "local-ai",
+    "voice-recorder",
+    "onemira"
+  ],
+  "homepage": "https://onemira.com/voice-recorder-for-note-taking",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/onemira-space/meeting-minutes-md.git"
+  },
+  "bugs": {
+    "url": "https://github.com/onemira-space/meeting-minutes-md/issues"
+  },
+  "author": "OneMira Engineering (https://onemira.com)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "onemira-meeting-minutes-skills",
+  "owner": {
+    "name": "OneMira",
+    "url": "https://onemira.com"
+  },
+  "plugins": [
+    {
+      "name": "meeting-minutes-md",
+      "source": "./",
+      "description": "Format speaker-labeled transcripts and agendas into editable OKF v0.2 Markdown meeting minutes in 7 languages and lint action-item owners.",
+      "version": "1.0.0"
+    }
+  ]
+}

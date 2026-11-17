@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "meeting-minutes-md"
+version = "1.0.0"
+description = "Zero-dependency offline OKF v0.2 Markdown meeting minutes formatter, pre-meeting agenda reconciler, and action-item linter."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [{name = "OneMira Engineering", email = "open-source@onemira.com"}]
+keywords = ["meeting-minutes", "okf", "markdown", "obsidian", "gespraechsprotokoll", "compte-rendu", "voice-recorder"]
+
+[project.urls]
+Homepage = "https://onemira.com/voice-recorder-for-note-taking"
+Repository = "https://github.com/onemira-space/meeting-minutes-md"
+
+[project.scripts]
+meeting-minutes-py = "meeting_minutes_md.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "python_pkg"}
+packages = ["meeting_minutes_md"]

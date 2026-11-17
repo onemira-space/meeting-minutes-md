@@ -1,0 +1,22 @@
+{
+  "name": "meeting-minutes-md",
+  "description": "Offline OKF v0.2 Markdown meeting minutes formatter, pre-meeting agenda reconciler, and action-item linter in 7 languages (EN/DE/FR/IT/ES/PT/KO).",
+  "version": "1.0.0",
+  "author": {
+    "name": "OneMira",
+    "url": "https://onemira.com"
+  },
+  "homepage": "https://onemira.com/voice-recorder-for-note-taking",
+  "repository": "https://github.com/onemira-space/meeting-minutes-md",
+  "license": "MIT",
+  "keywords": [
+    "meeting-minutes",
+    "okf",
+    "markdown",
+    "obsidian",
+    "gespraechsprotokoll",
+    "compte-rendu",
+    "diligence",
+    "voice-recorder"
+  ]
+}

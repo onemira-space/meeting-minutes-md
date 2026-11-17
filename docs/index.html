@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>meeting-minutes-md — Offline OKF v0.2 Markdown Meeting Minutes Formatter & Agenda Linter</title>
+  <meta name="description" content="Zero-dependency Node.js & Python CLI to format speaker-labeled transcripts and pre-distributed agendas into editable Open Knowledge Format (OKF v0.2) Markdown meeting minutes in 7 languages." />
+  <link rel="canonical" href="https://onemira-space.github.io/meeting-minutes-md/" />
+  <style>
+    :root { color-scheme: light; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, sans-serif; max-width: 780px; margin: 56px auto; padding: 0 24px; line-height: 1.65; color: #141414; background: #fff; }
+    h1 { font-size: 2rem; letter-spacing: -0.02em; margin-bottom: 0.5rem; }
+    h2 { font-size: 1.25rem; margin-top: 2.2rem; border-bottom: 1px solid #eaeaea; padding-bottom: 0.4rem; }
+    pre { background: #f6f6f6; padding: 16px; border-radius: 10px; overflow-x: auto; font-size: 0.9rem; }
+    code { font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+    a { color: #111; text-underline-offset: 3px; }
+    .links { display: flex; flex-wrap: wrap; gap: 16px; margin-top: 24px; font-size: 0.95rem; }
+  </style>
+</head>
+<body>
+  <h1>meeting-minutes-md</h1>
+  <p>Zero-dependency offline CLI, library, and Agent Skill to turn speaker-labeled transcripts (<code>.txt</code>, <code>.vtt</code>, <code>.md</code>) and pre-distributed agendas into editable <strong>Open Knowledge Format (OKF v0.2)</strong> Markdown meeting minutes across 7 languages (<code>EN</code>, <code>DE</code> <em>Gesprächsprotokoll</em>, <code>FR</code> <em>Compte rendu</em>, <code>IT</code> <em>Verbale</em>, <code>ES</code> <em>Acta</em>, <code>PT</code> <em>Ata</em>, <code>KO</code> <em>회의록</em>).</p>
+
+  <h2>Quick CLI Usage</h2>
+  <pre><code>npx github:onemira-space/meeting-minutes-md format call.vtt \
+  --agenda agenda.md \
+  --lang en \
+  --title "Q4 Diligence &amp; Architecture Sync" \
+  --out minutes.md
+
+npx github:onemira-space/meeting-minutes-md lint minutes.md --strict</code></pre>
+
+  <h2>Documentation &amp; Ecosystem</h2>
+  <div class="links">
+    <a href="https://github.com/onemira-space/meeting-minutes-md">GitHub Repository (MIT)</a>
+    <a href="https://onemira.com/voice-recorder-for-note-taking">Voice Recorder for Note Taking Guide</a>
+    <a href="https://onemira.com/de/voice-recorder-for-note-taking">KI-Diktiergerät für Gesprächsprotokolle (DE)</a>
+    <a href="https://onemira.com/fr/voice-recorder-for-note-taking">Dictaphone IA Compte Rendu (FR)</a>
+    <a href="https://onemira.com/meeting-recorder-without-a-bot">Bot-Free Meeting Capture</a>
+    <a href="https://onemira.com/security">Local AI Security Architecture</a>
+    <a href="https://onemira.com/docs/daily-use/local-wiki">OKF Local Wiki Docs</a>
+    <a href="https://onemira.com/products/c1">OneMira C1 Hardware</a>
+  </div>
+</body>
+</html>
