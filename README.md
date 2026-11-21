@@ -1,5 +1,7 @@
 # meeting-minutes-md
 
+> **Developer Docs & Quickstart (Mintlify + `/llms.txt`):** [https://one-mira.mintlify.app/](https://one-mira.mintlify.app/)
+
 Zero-dependency, 100% offline CLI, Node.js ESM library, Python 3 module, and Agent Skill (`SKILL.md`) to turn speaker-labeled transcripts (`.txt`, `.vtt`, `.md`) and pre-distributed agendas into **editable Open Knowledge Format (OKF v0.2) Markdown meeting minutes** across **7 languages** (`EN`, `DE` *Gesprächsprotokoll*, `FR` *Compte rendu de réunion*, `IT` *Verbale di riunione*, `ES` *Acta de reunión*, `PT` *Ata de reunião*, `KO` *회의록*).
 
 Built by [OneMira Engineering](https://onemira.com) for executives, M&A diligence teams, consultants, researchers, and builders using Obsidian, Git, Claude Code, and Cursor.
